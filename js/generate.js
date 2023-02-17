@@ -31,7 +31,7 @@ document.getElementById('calculator').addEventListener('click', function (event)
         if(number == 'C'){
             tyNumberField.value = ''
         }
-        else if(number ==- '<'){
+        else if(number == '<'){
             const digits = preiviousTypeNumber.split('');
             digits.pop();
             const reminigDigits = digits.join('');
